@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>xb3llum games</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=VT323&amp;family=Pontano+Sans:wght@400;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="topmenu">
+    <nav id="siteNav">
+      <ul>
+        <li><a href="#" class="active">Games</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" type="button" title="Switch theme">auto</button>
+    </nav>
+    <div id="sitename"><a href="#">xb3llum</a></div>
+    <div id="siteslogan">chess.com archive</div>
+  </div>
+
+  <aside id="sidemenu"></aside>
+
+  <main id="main">
+    <p class="loading">loading games&hellip;</p>
+  </main>
+
+  <div id="footer">
+    Games exported from chess.com. Parsed in the browser by <code>assets/pgn.js</code>.
+  </div>
+
+  <script src="assets/pgn.js"></script>
+  <script src="assets/engine.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
